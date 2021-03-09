@@ -1,4 +1,3 @@
-
 #These are the definitions out of the Scrabble dictionary
 
 definitions = {"chicken":"TO LOSE ONE'S NERVE",
@@ -44,6 +43,8 @@ except:
 for word, definition in definitions.items():
   print('{}: {}'.format(word, definition))
 
-def_keys = [ definitions.keys() ]
+def_keys = [ key for key in definitions.keys() ]
+print(def_keys)
 
 def_values = list(definitions.values())
+print("Hmm")
