@@ -1,3 +1,4 @@
+
 #These are the definitions out of the Scrabble dictionary
 
 definitions = {"chicken":"TO LOSE ONE'S NERVE",
